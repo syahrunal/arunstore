@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins''Times New Roman', Times, serif;
+    line-height: 1.6;
+    animation: fadeIn 2s ease-in-out;
+}
+header {
+    padding: 100px;
+    text-align: center;
+    color: rgb(229, 255, 0);
+}
+subheader {
+    padding: 100px;
+    text-align: center;
+    color: rgb(229, 255, 0);
+}
+.highlight-section {
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.highlight-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(88, 19, 179, 0.37);
+}
+
+.header {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(99, 12, 212, 0.5);
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header .header-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .header-caption h5 {
+    font-size: 2rem;
+}
+
+.header .header-caption p {
+    font-size: 1.25rem;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+.logo {
+    max-width: 100px; /* Mengatur lebar maksimum logo menjadi lebih kecil */
+    height: auto; /* Menjaga rasio aspek logo */
+}
+
+.header .carousel-inner {
+    height: 50%; /* Pastikan tinggi carousel tidak digunakan lagi */
+}
+.header .carousel-item {
+    height: 50%; /* Pastikan tinggi carousel tidak digunakan lagi */
+}
+.highlight-section { padding: 2rem; background-color: #0ccfe9; /* Warna latar belakang untuk kontras */ border-radius: 8px; /* Sudut yang sedikit melengkung untuk tampilan lebih baik */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.322); /* Bayangan untuk efek mendalam */ margin-bottom: 2rem; /* Jarak antara bagian */ } .highlight-section h2 { color: #24282c; /* Warna biru untuk judul bagian */ } .highlight-section p { color: #343a40; /* Warna teks yang kontras */ }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
